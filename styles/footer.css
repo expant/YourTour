@@ -1,0 +1,129 @@
+.write-to-mail {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.563rem;
+    margin: 7.031rem 0;
+    margin-left: -0.156rem;
+    justify-content: center;
+}
+
+.write-to-mail__photo,
+.write-to-mail__text {
+    width: 19.271rem;
+}
+
+.write-to-mail__photo {
+    height: 19.271rem;
+    background: url("../assets/images/footer/footer-photo.jpg") no-repeat center / cover;
+    border-radius: 2.6042rem;
+}
+
+.write-to-mail__text h3 {
+    font-family: RobotoM sans-serif;
+    font-weight: 500;
+    font-size: 1.823rem;
+    line-height: 122%;
+    color: #1B1F2B;
+    margin-bottom: 1.042rem;
+    margin-top: 5.417rem;
+}
+
+.write-to-mail__text p,
+.write-to-mail__text a,
+.our-social-networks__text,
+.our-social-networks__link a  {
+    font-family: RobotoR sans-serif; 
+}
+
+.write-to-mail__text p {
+    font-size: 1.042rem;
+    line-height: 142%;
+    color: #A6A6A6;
+}
+
+.write-to-mail__text a {
+    color: #1B1F2B;
+    text-decoration: none;
+}
+
+.write-to-mail__text a:hover {
+    text-decoration: underline;
+}
+
+.write-to-mail__text a:active {
+    color: #286562;
+}
+
+.our-social-networks {
+    background: #F4F0E9;;
+    padding: 1.563rem 0;
+}
+
+.our-social-networks__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.our-social-networks__text {
+    font-size: 1.042rem;
+    line-height: 142%;
+    color: #A6A6A6;
+    margin-left: 0.052rem;
+}
+
+.our-social-networks__links {
+    margin-right: 0.104rem;
+}
+
+.our-social-networks__link {
+    display: inline-block;
+    margin-left: 1.302rem;
+}
+
+.our-social-networks__link img {
+    display: inline-block;
+}
+
+.link-fb {
+    margin-left: 1.7188rem;
+}
+
+.our-social-networks__link img,
+.our-social-networks__link a {
+    vertical-align: middle;
+}
+
+.our-social-networks__link a {
+    font-size: 1.042rem;
+    line-height: 142%;
+    color: #1B1F2B;
+    text-decoration: none;
+    margin-left: 0.417rem;
+}
+
+.our-social-networks__link a:hover {
+    border-bottom: 1px solid #1B1F2B;
+}
+
+.link-fb a {
+    margin-left: 0.573rem;
+}
+
+.link-fb img {
+    width: 0.4167rem;
+}
+
+.link-insta img {
+    width: 0.7292rem;
+    margin-bottom: -0.052rem;
+}
+
+.link-vk img {
+    width: 1.0417rem;
+    margin-bottom: -0.156rem;
+}
+
+.link-vk a {
+    margin-left: 0.469rem;
+}

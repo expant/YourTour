@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: RobotoL sans-serif;
+}
+
+html {
+    font-size: 1vw; /* 192px */
+}
+
+.container {
+    width: 66.667rem;
+    max-width: 66.667rem;
+    margin: 0 auto;
+    padding: 0 2.813rem;
+}
+
+body {
+    background-color: #F9F7F4;
+}
+
+h2 {
+    font-family: RobotoB sans-serif;
+}
+
+h3 {
+    font-family: RobotoR sans-serif;
+}
+
+.shoose-your-tour,
+.travel-photos__grid-cols-4,
+.travel-photos__grid-cols-5 {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    gap: 1.563rem;
+    justify-content: center;
+}
+
+

@@ -1,0 +1,94 @@
+.reviews {
+    text-align: center;
+    margin-top: -0.052rem;
+}
+
+.reviews__title {
+    font-size: 3.073rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7.083rem;
+    padding: 0 5.469rem;
+    line-height: 124%;
+}
+
+.reviews__text {
+    margin-top: -0.104rem;
+    padding-bottom: 5.3125rem;
+}
+
+.review:last-child p:last-child {
+    margin-top: 1.458rem;
+}
+
+.reviews__content-grid {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 1.563rem;
+    margin-top: -0.104rem;
+}
+
+.review {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 29.688rem;
+    position: relative;
+    text-align: left;
+    background: #F4F0E9;
+    border-radius: 2.6042rem;
+    padding: 2.083rem;
+}
+
+.review__text {
+    margin-bottom: 7.5rem;
+}
+
+.review__text p {
+    font-family: RobotoB sans-serif;
+    font-size: 1.198rem;
+    font-weight: bold;
+    line-height: 122%;
+    color: #1B1F2B;
+}
+
+.review__footer {
+    width: 86%;
+    position: absolute;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    bottom: 2.083rem;
+}
+
+.review__name {
+    font-family: RobotoB sans-serif;
+    font-size: 1.823rem;
+    font-weight: 500;
+    line-height: 122%;
+    color: #1B1F2B;
+    margin-bottom: 0.417rem;
+}
+
+.review__tour-name {
+    font-family: RobotoR sans-serif;
+    font-weight: normal;
+    font-size: 0.885rem;
+    line-height: 142%;
+    letter-spacing: -0.01em;
+    color: #A6A6A6;
+}
+
+.review__avatar {
+    width: 3.906rem;
+    height: 3.906rem;
+    border-radius: 50%;
+    margin-right: 0.0521rem;
+}
+
+.ava-Maria {
+    background: url("../assets/icons/reviewers/review-Maria.svg") no-repeat center / cover;
+}
+
+.ava-Pavel {
+    background: url("../assets/icons/reviewers/review-Pavel.svg") no-repeat center / cover;
+}

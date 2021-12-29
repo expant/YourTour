@@ -1,0 +1,101 @@
+.travel-photos {
+    width: 100%;
+    max-width: 100.052rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.travel-photos,
+.travel-photos-header {
+    text-align: center;
+}
+
+.travel-photos-header {
+    margin-bottom: 0.052rem;
+}
+
+.travel-photos__title {
+    margin-top: 7.031rem;
+    margin-bottom: 1.563rem;
+    line-height: 124%;
+}
+
+.travel-photos__text {
+    padding-bottom: 5.1042rem;
+}
+
+.travel-photos__grid-cols-4,
+.travel-photos__grid-cols-5 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 1.563rem;
+    padding: 0 1.146rem;
+}
+
+.travel-photo1 {
+    background: url("../assets/images/travel-photos/travel_photo-1.jpg") no-repeat;
+}
+
+.travel-photo2 {
+    background: url("../assets/images/travel-photos/travel_photo-2.jpg") no-repeat;
+}
+
+.travel-photo3 {
+    background: url("../assets/images/travel-photos/travel_photo-3.jpg") no-repeat;
+}
+
+.travel-photo4 {
+    background: url("../assets/images/travel-photos/travel_photo-4.jpg") no-repeat;
+}
+
+.travel-photo5 {
+    background: url("../assets/images/travel-photos/travel_photo-5.jpg") no-repeat;
+}
+
+.travel-photo6 {
+    background: url("../assets/images/travel-photos/travel_photo-6.jpg") no-repeat;
+}
+
+.travel-photo7 {
+    background: url("../assets/images/travel-photos/travel_photo-7.jpg") no-repeat;
+}
+
+.travel-photo8 {
+    background: url("../assets/images/travel-photos/travel_photo-8.jpg") no-repeat;
+}
+
+.travel-photo9 {
+    background: url("../assets/images/travel-photos/travel_photo-9.jpg") no-repeat;
+}
+
+.travel-photo10 {
+    background: url("../assets/images/travel-photos/travel_photo-10.jpg") no-repeat;
+}
+
+.travel-photo11 {
+    background: url("../assets/images/travel-photos/travel_photo-11.jpg") no-repeat;
+}
+
+.travel-photo12 {
+    background: url("../assets/images/travel-photos/travel_photo-12.jpg") no-repeat;
+}
+
+.travel-photo13 {
+    background: url("../assets/images/travel-photos/travel_photo-13.jpg") no-repeat;
+}
+
+.travel-photo {
+    min-height: 15.6771rem;
+    border-radius: 2.6042rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.travel-photos__grid-cols-4 .travel-photo {
+    flex: 0 1 23.177rem;
+}
+
+.travel-photos__grid-cols-5 .travel-photo {
+    flex: 0 1 18.333rem;
+}

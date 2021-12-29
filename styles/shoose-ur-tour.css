@@ -1,0 +1,149 @@
+/* -------------- shoose your tour header ---------------------- */
+.shoose-your-tour__header {
+    text-align: center;
+    color: #1B1F2B;
+    padding-bottom: 5.2083rem;
+}
+
+.shoose-your-tour,
+.shoose-your-tour__header {
+    margin-left: -1px;
+}
+
+.shoose-your-tour__main-title {
+    font-size: 3.073rem;
+    line-height: 124%;
+    margin-bottom: 1.8229rem !important;
+}
+
+.shoose-your-tour__nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 1.6146rem; 
+    margin: 0 auto;
+}
+
+.shoose-your-tour__nav-item {
+    font-family: RobotoB sans-serif;
+    font-size: 1.198rem;
+    cursor: pointer;
+    padding-bottom: 0.208rem;
+}
+
+.shoose-your-tour__nav-item:first-child {
+    color: #EFA501;
+    border-bottom: 2px solid #EFA501 !important;
+}
+
+.shoose-your-tour__nav-item:hover {
+    border-bottom: 2px solid #1B1F2B;    
+}
+
+/* ---------- shoose your tour cards ------------------ */
+.card-1 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-1.jpg") no-repeat;
+}
+
+.card-2 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-2.jpg") no-repeat;
+}
+
+.card-3 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-3.jpg") no-repeat;
+}
+
+.card-4 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-4.jpg") no-repeat;
+}
+
+.card-5 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-5.jpg") no-repeat;
+}
+
+.card-6 {
+    background: 
+        linear-gradient(360deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.06) 48.44%, rgba(0, 0, 0, 0.5) 100%),
+        url("../assets/images/shoose-your-tour/shoose-your-tour-6.jpg") no-repeat;
+}
+
+.shoose-your-tour__item {
+    flex: 0 1 19.271rem;
+    min-width: 19.271rem;
+    text-align: left;
+    background-position: center;
+    background-size: 100%;
+    border-radius: 2.6042rem;
+    padding: 2.604rem;
+    padding-bottom: 1.563rem;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-size 300ms ease;
+}
+
+.shoose-your-tour__item:hover {
+    background-size: 120%;
+    z-index: 10;
+}
+
+.shoose-your-tour__title {
+    width: 11.667rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8229rem;
+    letter-spacing: 0.2px;
+    margin-bottom: 0.9896rem;
+    line-height: 123%;
+}
+
+.shoose-your-tour__price {
+    font-size: 0.885rem;
+    font-weight: lighter;
+    margin-bottom: 14.115rem;
+}
+
+.shoose-your-tour__more,
+.travel-history__card-more {
+    display: inline-block;
+    padding: 0.417rem 1.042rem;
+    border-radius: 50px;
+    margin-left: -1.042rem;
+    margin-bottom: 0.5729rem;
+    background-color: transparent;
+    transition: background-color 300ms ease;
+}
+
+.shoose-your-tour__item:hover .shoose-your-tour__more,
+.travel-history__card:hover .travel-history__card-more {
+    background-color: #286562;
+}
+
+
+.shoose-your-tour__item .shoose-your-tour__more:active,
+.travel-history__card .travel-history__card-more:active {
+    background-color: #EFA501;
+}
+
+
+.shoose-your-tour__more span,
+.travel-history__card-more span {
+    font-family: RobotoM sans-serif;
+    font-size: 1.198rem;
+    margin-right: 0.677rem;
+}
+
+.shoose-your-tour__more img,
+.travel-history__card-more img {
+    width: 1.1458rem;
+}
+

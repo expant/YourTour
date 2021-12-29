@@ -1,2 +1,1 @@
 # YourTour.github.io
-SNP 🤟

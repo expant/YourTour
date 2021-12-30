@@ -43,12 +43,16 @@
     margin-bottom: 7.5rem;
 }
 
-.review__text p {
+.review__text p,
+.review__name {
     font-family: RobotoB sans-serif;
+    color: #1B1F2B;
+}
+
+.review__text p {  
     font-size: 1.198rem;
     font-weight: bold;
     line-height: 122%;
-    color: #1B1F2B;
 }
 
 .review__footer {
@@ -61,11 +65,9 @@
 }
 
 .review__name {
-    font-family: RobotoB sans-serif;
     font-size: 1.823rem;
     font-weight: 500;
     line-height: 122%;
-    color: #1B1F2B;
     margin-bottom: 0.417rem;
 }
 

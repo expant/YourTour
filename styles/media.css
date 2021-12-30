@@ -1,13 +1,3 @@
-@import url('./fonts.css');
-@import url('./main.css');
-@import url('./header.css');
-@import url('./shoose-ur-tour.css');
-@import url('./collect-tour.css');
-@import url('./reviews.css');
-@import url('./travel-photos.css');
-@import url('./travel-history.css');
-@import url('./footer.css');
-
 @media screen and (min-width: 361px) and (max-width: 1024px) {
 
     html {
@@ -20,7 +10,6 @@
 
     .container {
         width: 53.6458rem;
-        max-width: 53.6458rem;
         margin: 0 auto;
         padding: 0;
         padding-right: 0.346rem;
